@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand');
+
+/* ////////////////////// */
+/* // Tudo por omissao // */
+/* ////////////////////// */
+
+* {
+	-fx-font-family: Quicksand;
+	-fx-font-smoothing-type: gray;
+	-fx-text-fill: white;
+}
+
+/* //////////// */
+/* // Titulos// */
+/* //////////// */
+
+#title {
+	-fx-font-size:45;
+}
+
+/* //////////// */
+/* // Botoes // */
+/* //////////// */
+
+.button {
+	-fx-font-size:17.5;
+	-fx-background-color: transparent;
+	-fx-border-color:white;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+	-fx-border-width: 0 3 3 0;
+}
+
+.button:hover {
+	-fx-font-size:17.5;
+	-fx-background-color: transparent;
+	-fx-border-color:white;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+	-fx-border-width: 0 1 1 0;
+}
+
+/* //////////// */
+/* // Botoes // */
+/* //////////// */
+
+.label {
+	-fx-font-size:17.5;
+}
+
+/* /////////////// */
+/* Campos de texto */
+/* /////////////// */
+
+.text-field {
+	-fx-font-size:17.5;
+	-fx-background-color:transparent;
+	-fx-border-color:white;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+	-fx-border-width: 0 3 3 0;
+}
+
+.text-field:focused {
+	-fx-font-size:17.5;
+	-fx-background-color:transparent;
+	-fx-border-color:white;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+	-fx-border-width: 0 1 1 0;
+}
+
+/* //////////// */
+/* // Labels // */
+/* //////////// */
+
+.label {
+	-fx-text-fill: white;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+/* //////////// */
+/* // Tabelas// */
+/* //////////// */
+
+.table-view {
+	-fx-background-color: transparent;
+	-fx-border-color:white;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+	-fx-border-width: 0 3 3 0;
+}
+
+.table-view .column-header-background {
+	-fx-background-color: transparent;
+}
+
+.table-view .column-header-background .filler{
+	-fx-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-border-width: 0 3 3 0;
+    -fx-font-size:16;
+}
+
+.table-view .table-column {
+	-fx-alignment: CENTER;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-border-width: 0 3 3 0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: white;
+    -fx-font-size:16;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: #2a485820;
+}
+
+.table-row-cell:even{
+    -fx-background-color: #5b5b5b20;
+}
+
+.table-row-cell:hover{
+    -fx-background-color: #00000025;
+}
+
+.table-view .thumb {
+	-fx-background-color: #00000025;
+}
+
+.table-view .scroll-bar {
+	-fx-background-color: transparent;
+}
+
+.table-view .increment-button:hover, .table-view .decrement-button:hover  {
+    -fx-background-color:#00000025;
+}
+
+.table-view .arrow {
+	-fx-background-color: white;
+}
+
+/* //////////// */
+/* /Combo box// */
+/* //////////// */
+
+.combo-box {
+	-fx-font-size:17.5;
+	-fx-background-color: transparent;
+	-fx-border-color:white;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+	-fx-border-width: 0 3 3 0;
+}
+
+.combo-box:hover, .combo-box-base:showing {
+	-fx-border-width: 0 1 1 0;
+}
+
+.combo-box .arrow {
+	-fx-background-color: white;
+}
+
+.combo-box .list-cell {
+	-fx-alignment:center;
+}
+
+.combo-box-popup .cell {
+	-fx-background-color: #00000075;
+}
+
+.combo-box-popup .cell:hover {
+	-fx-background-color: #00000050;
+}
+
+/* //////////// */
+/* Ecra Inicial */
+/* //////////// */
+
+#logo {
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#introStackpane {
+	-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #2a4858, #5b5b5b);
+}
+
+/* //////////// */
+/* Pagina login */
+/* //////////// */
+
+#logoLogin {
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#loginStackpane {
+	-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #2a4858, #5b5b5b);
+}
+
+/* //////////// */
+/* / Consulta / */
+/* //////////// */
+
+#logoConsulta {
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#consultaStackpane { 
+	-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #2a4858, #5b5b5b);
+}
+
+/* /////////////// */
+/* / Query unica / */
+/* /////////////// */
+
+#queryArea {
+	-fx-prompt-text-fill: white;
+	-fx-font-size:17.5;
+	-fx-background-color:white;
+	-fx-control-inner-background:#2a485870;
+}
+
+/* /////////////// */
+/* / Procedimento/ */
+/* /////////////// */
+
+#procedureStackpane {
+	-fx-background-color: #00000075;
+}
+
+/* /////////// */
+/* / Alertas / */
+/* /////////// */
+
+.dialog-pane{
+    -fx-background-color: #2a4858;
+}
+
+.dialog-pane:header *.header-panel {
+    -fx-background-color: #2a4858;
+}
