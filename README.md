@@ -39,8 +39,8 @@ lista aplica-se ao sistema operativo Windows 10, pelo que carece de adaptação 
  - No menu seguinte deve escolher toda a base de dados 
  - Sob "Set Scripting Options" deve escolher "Save as script file" e em "Advanced" alterar "Types of data to script" para "Schema and Data".
  - Quando o processo terminar será gerado um ficheiro .sql que deve ser fornecido ao novo host
- - Deve ser instalado o Microsoft SQL Server Management Studio (neste guia, usada a versão 18.12.21),  bem como o SQL Server Configuration Manager (19)
- - Após uma configuração inicial deve executar uma query com o conteúdo do ficheiro gerado no host antigo, replicando a base de dados na máquina atual
+ - Deve ser instalado Microsoft SQL Server, Microsoft SQL Server Management Studio (neste guia, usada a versão 18.12.21),  bem como o SQL Server Configuration Manager (19)
+ - Após uma configuração inicial e criação da base de dados deve executar uma query com o conteúdo do ficheiro gerado no host antigo, replicando a base de dados na máquina atual
  - Quando a base de dados RURS estiver presente na nova máquina, deve aceder ás propriedades do servidor no SQL Server Manager e sob "Connections"
    habilitar a opção "Allow remote connections to this server".
  - Sob "Security" deve alterar a opção "Windows Authentication Mode" para "SQL Server and Windows Authentication Mode"
