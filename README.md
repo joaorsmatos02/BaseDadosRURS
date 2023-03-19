@@ -55,7 +55,7 @@ lista aplica-se ao sistema operativo Windows 10, pelo que carece de adaptação 
  - De seguida habilitar todas as três opções e, por fim, dar um pequeno nome e descrição á regra criada.
  - No final desta configuração deve-se tomar nota do nome do servidor, no Server Management Studio ou do IP local da máquina.
 
-Após uma migração de host, os residentes devem ser informados das credenciais da nova máquina para que possam atualizar os seus ficheiros properties. 
+Após uma migração de host, os residentes devem ser informados das credenciais da nova máquina para que possam atualizar os seus ficheiros properties, atentando ao facto de que o caracter "\" deve ser substituido por "\\" no ficheiro properties. 
 Como incêntivo á não redistribuição, este programa apenas se liga á base de dados com o nome "RURS", ignorando quaisquer outras presentes na máquina. 
 Recomenda-se ainda a alteração da password SQL Server aquando de mudanças no corpo da comissão.
 
